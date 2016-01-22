@@ -1,8 +1,11 @@
 {
-  "name": "Dummy",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "express": "^4.13.3"
-  }
+    "name": "dummy",
+    "version": "1.0.0",
+    "private": true,
+    "config": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.13.3"
+    }
 }
